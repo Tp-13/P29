@@ -3,5 +3,9 @@ class Block extends BaseClass {
       super(x,y,width,height);
     }
   
+    display(){
+      fill("teal");
+      super.display();
+    }
   };
   
